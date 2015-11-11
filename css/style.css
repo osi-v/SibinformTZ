@@ -1,0 +1,78 @@
+ body {
+     font-family: Arial;
+ }
+ 
+ .gallery {
+     width: 500px;
+     margin: 0 auto;
+     text-align: center;
+     position: relative;
+     font-size: 18px;
+ }
+ 
+ h1 {
+     color: #3498db;
+ }
+ 
+ .bigimage {
+     height: 500px;
+     width: 500px;
+ }
+ 
+ .thumbnails-bar {
+     width: 480px;
+     height: 120px;
+     overflow: hidden;
+     white-space: nowrap;
+     margin: 0 auto;
+ }
+ 
+ .thumbnail {
+     height: 100px;
+     width: 100px;
+     margin: 5px;
+     border: 3px solid #E5E5E5;
+     cursor: pointer;
+ }
+ 
+ .leftbutton {
+     font-weight: 100;
+     position: absolute;
+     top: 40%;
+     left: 0%;
+     cursor: pointer;
+     filter: alpha(opacity=80);
+     opacity: 0.8;
+     color: #fff;
+     background: #2a2a2a;
+     text-decoration: none;
+     padding: 4% 3%;
+     width: auto;
+     height: auto;
+ }
+ 
+ .rightbutton {
+     position: absolute;
+     top: 40%;
+     right: 0%;
+     cursor: pointer;
+     filter: alpha(opacity=80);
+     opacity: 0.8;
+     color: #fff;
+     background: #2a2a2a;
+     text-decoration: none;
+     padding: 4% 3%;
+     width: auto;
+     height: auto;
+ }
+ 
+.leftbutton:hover, .rightbutton:hover {
+ filter: alpha(opacity=100);
+     opacity: 1;
+}
+
+ .disabled, .disabled:hover {
+     filter: alpha(opacity=20);
+     opacity: 0.2;
+     cursor: default;
+ }
